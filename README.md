@@ -35,6 +35,8 @@ A hand-picked list of **JavaScript** and **TypeScript** tools that matter for se
   - [UI, Styling \& Design Systems](#ui-styling--design-systems)
     - [CSS \& styling systems](#css--styling-systems)
     - [Component systems](#component-systems)
+    - [Tables \& data grids](#tables--data-grids)
+    - [Virtualization \& large lists](#virtualization--large-lists)
     - [Icons \& docs for component work](#icons--docs-for-component-work)
   - [Routing, State, Forms \& Validation](#routing-state-forms--validation)
     - [Routing](#routing)
@@ -127,6 +129,7 @@ If I were starting a modern JS/TS project today, I would usually begin with some
 - **Testing:** [Vitest](https://vitest.dev/) + [Playwright](https://playwright.dev/)
 - **Code quality:** [Biome](https://biomejs.dev/) or [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)
 - **UI:** [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/) or [Material UI](https://mui.com/)
+- **Tables & virtualization:** [TanStack Table](https://tanstack.com/table) + [TanStack Virtual](https://tanstack.com/virtual), or [react-virtuoso](https://virtuoso.dev/) when you want richer list primitives out of the box
 - **Hosting:** [Vercel](https://vercel.com/) for Next.js-heavy apps, [Cloudflare](https://www.cloudflare.com/) for edge-first apps, [Railway](https://railway.com/) or [Render](https://render.com/) for simple full-stack deployments
 - **Pipelines:** [GitHub Actions](https://github.com/features/actions) or [GitLab CI/CD](https://gitlab.com)
 
@@ -281,6 +284,21 @@ These all work naturally in VS Code, and the same extension ecosystem is one of 
 - [Material UI](https://mui.com/) — Still common in enterprise products and dashboard-heavy apps.
 - [Chakra UI](https://www.chakra-ui.com/) — Friendly ergonomics and a coherent component model.
 - [Ant Design](https://ant.design/) — Still a major option for business applications and data-dense interfaces.
+
+### Tables & data grids
+
+- [TanStack Table](https://tanstack.com/table) — The headless default when you want powerful table logic, full markup control, and a good fit with the wider TanStack ecosystem.
+- [AG Grid](https://www.ag-grid.com/) — The feature-rich grid to know for data-heavy products, especially when Excel-like behavior, enterprise features, or very large datasets matter.
+- [MUI X Data Grid](https://mui.com/x/react-data-grid/) — Strong choice when a React dashboard already uses Material UI and wants a polished component with sorting, filtering, pagination, and virtualization.
+- [react-data-grid](https://github.com/adazzle/react-data-grid) — Practical React grid for editable, spreadsheet-style tables without taking on the full AG Grid surface area.
+- [Handsontable](https://handsontable.com/) — Best known for spreadsheet-like editing, copy/paste workflows, formulas, and dense business-data interfaces.
+
+### Virtualization & large lists
+
+- [TanStack Virtual](https://tanstack.com/virtual) — Headless, framework-agnostic virtualization for custom lists, grids, tables, and scroll behavior with minimal UI opinions.
+- [react-virtuoso](https://virtuoso.dev/) — The pragmatic React default when you want dynamic heights, grouped lists, sticky headers, tables, and infinite scroll with less wiring.
+- [react-window](https://github.com/bvaughn/react-window) — Still common and tiny for simple fixed-size list virtualization, but more of a maintenance choice than a new-project default.
+- [react-virtualized](https://github.com/bvaughn/react-virtualized) — Important legacy option for older React apps with large lists and grids, though heavier and less attractive for greenfield work.
 
 ### Icons & docs for component work
 
