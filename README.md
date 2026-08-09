@@ -1,6 +1,6 @@
 # Best of JavaScript
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Web Reactions](https://api.webreactions.app/badge/github/khasky/best-of-javascript.svg)](https://webreactions.app/?utm_source=github&utm_channel=repository&utm_medium=best-of-javascript)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Emojery](https://api.emojery.app/badge/github/khasky/best-of-javascript.svg)](https://emojery.app/react?t=github/khasky/best-of-javascript)
 
 Hand-picked **JavaScript** and **TypeScript** tools that help developers build better production-ready applications.
 
